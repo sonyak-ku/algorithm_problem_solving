@@ -1,10 +1,39 @@
 import numpy as np
-
+import copy
 
 def fill_in_the_puzzle(gameboard, table):
-    pass
+    answer = 0
+    empty_game_board = find_board(gameboard, [0, 1])
+    table_board_pieces = find_board(table, [1, 0])
+    filled_piece = [] # 이미 채운 덩어리는 다시 검사 안하도록
+    filled_space = [] # 이미 채운 보드 공간
+    # 테이블 보드 덩어리들을 사각형 형태로 저장한다
+    rec_table_pieces = [make_board_as_rectangle(piece) for piece in table_board_pieces]
+    # 마찬가지로 게임보드 덩어리도
+    rec_game_board_empty_spaces = [make_board_as_rectangle(space) for space in empty_game_board]
+    # 일치 불일치 검사 하면 끝 - 한쪽을 회전하며 일치불일치 검사.( 이미 검사한 것은 다음 검사를 굳이 안해도 된다는점 체크 )
 
+    for spaces in rec_game_board_empty_spaces: # 공간을 기준으로 for 문 돌려서 맞으면 break 터져야 되는데 -> for 문이 세개나 잇어서 그럼(원하는건 두번째 forwhdfy)
+        for pieces in rec_table_pieces:
+            if spaces in filled_space:
+                continue
+            if pieces in filled_piece:
+                continue
+            else:
+                board = pieces[1]
+                for i in range(4): # 4방향 검사
+                    if board == spaces[1]: # 공간이 딱 맞으면
+                        answer += spaces[0]
+                        filled_piece.append(pieces)
+                        filled_space.append(spaces)
+                        # print(f"what was fitted?: piece: {pieces}, space: {spaces}, added_sum: {spaces[0]}")
+                        break# 이 for 문 탈출
+                    else:
+                        board = rotate_bundle(board)
 
+    return answer
+
+#return board_bundles
 def find_board(map, numbers):  # numbers :(찾아야되는 공간, 지나가야하는 공간) -> 게임보드와, 테이블이 다르기에, 같은 함수 재활용위해
     board_bundles = []
     visited = []
@@ -41,8 +70,23 @@ def find_board(map, numbers):  # numbers :(찾아야되는 공간, 지나가야�
     return board_bundles
 
 
-def make_board_as_rectangle(one_piece_coordinates):  # 여러 좌표들로 이루어진 보드를, 가공해 에워싸는 사각형 덩어리로 리턴하는 함수
-    pass
+# return =[sum, rec(아중리스트)]
+def make_board_as_rectangle(one_piece_coordinates):  # 여러 좌표들로 이루어진 보드를, 가공해 에워싸는 사각형 덩어리와, 조각의 개수로 리턴하는 함수
+    rectangle = [] # sum :조각의 합, 사각형 : 사각형
+    rectangle.append(len(one_piece_coordinates))
+    r = sorted(one_piece_coordinates) # 새로 만들 사각형의 r의 길이
+    c = sorted(one_piece_coordinates, key=lambda x: x[1])  # 새로 만들 사각형의 c의 길이
+    nr, nc = r[-1][0] - r[0][0] + 1, c[-1][1] - c[0][1] + 1
+    min_r, min_c = r[0][0], c[0][1]  #좌표를 최소화시키려구-최대한 (0,0)과 가깝게 이동시키기 위해서
+    new_piece = copy.deepcopy(one_piece_coordinates)
+    new_piece = list(map(lambda x: [x[0] - min_r, x[1] - min_c], new_piece))
+    rec = [[0 for j in range(nc)] for i in range(nr)] # 반환할 사각형 0으로 채워놓고
+    for piece in new_piece:
+        r, c = piece[0], piece[1]
+        rec[r][c] = 1 # 좌표를 0에서 1로 바꾸어 준다
+
+    rectangle.append(rec)
+    return rectangle
 
 
 def rotate_bundle(bundle):  # 이중리스트 90도로 한번 시계방향으로 회전한 것을 리턴하기, 이중리스트에 직접변화를 일으키도록 애초에 할 수 없겟다.-> 끝!!!
@@ -56,7 +100,10 @@ def rotate_bundle(bundle):  # 이중리스트 90도로 한번 시계방향으로
 
     return new_bundle
 
-
+# dummy = [[4, 3], [5, 3], [5, 4], [5, 2]]
+# p = make_board_as_rectangle(dummy)
+# print(p)
+# print(rotate_bundle(p['rec']))
 board = [[1, 1, 0, 0, 1, 0],
          [0, 0, 1, 0, 1, 0],
          [0, 1, 1, 0, 0, 1],
@@ -68,11 +115,11 @@ board = [[1, 1, 0, 0, 1, 0],
 
 # print(np.array(rotate_bundle(board))) # rotate_bundle 동작 체크
 
-# table = [[1, 0, 0, 1, 1, 0],
-#          [1, 0, 1, 0, 1, 0],
-#          [0, 1, 1, 0, 1, 1],
-#          [0, 0, 1, 0, 0, 0],
-#          [1, 1, 0, 1, 1, 0],
-#          [0, 1, 0, 0, 0, 0]]
-#
-# print(fill_in_the_puzzle(board, table))
+table = [[1, 0, 0, 1, 1, 0],
+         [1, 0, 1, 0, 1, 0],
+         [0, 1, 1, 0, 1, 1],
+         [0, 0, 1, 0, 0, 0],
+         [1, 1, 0, 1, 1, 0],
+         [0, 1, 0, 0, 0, 0]]
+
+print(fill_in_the_puzzle(board, table))
