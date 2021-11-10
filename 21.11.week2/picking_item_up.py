@@ -3,7 +3,7 @@ import sys
 
 
 def solution(rectangle, characterX, characterY, itemX, itemY):
-    maps = [[0 for j in range(11)] for i in range(11)]  # 걸어 다닐 수 있는 좌표들을 1 로 적을꺼양
+    maps = [[0 for j in range(51)] for i in range(51)]  # 걸어 다닐 수 있는 좌표들을 1 로 적을꺼양
     min_cord = []  # 가장 최솟점 찾기위해서   #################-----------------> 가장 작은 수를 스타트로 한다는 생각이 살짝 위험할 수도 있겠다
     for rec in rectangle:  # 사각형의 최소꼭짓점과 최대꼭지점을 하나씩 빼서
         rectangle_line = find_rectangle_coordinates(rec)  # 사각형의 변들이 좌표로 되어잇음
