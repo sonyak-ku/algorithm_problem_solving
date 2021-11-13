@@ -2,7 +2,8 @@ from itertools import combinations
 
 def solution(line):
     combi = list(combinations(line, 2)) # 선분들을 두개씩 묶어서
-    cords = [check_int_or_float(find_intersection(lines[0], lines[1])) for lines in combi] # 정수 좌표들 바로 출력(None) 포함되어잇음
+    cords = [check_int_or_float(find_intersection(lines[0], lines[1])) for lines in combi if find_intersection(lines[0], lines[1]) is not None] # 정수 좌표들 바로 출력(None) 포함되어잇음
+    ## find_intersection 함수를 돌려 None 이 나왓을 때 check 함수에 넣지 못함.
     int_cords = [cord for cord in cords if cord is not None]
     return express_cords_in_graph(int_cords)
 
@@ -71,6 +72,10 @@ def express_cords_in_graph(cords : list):
     for cords in reordered_cords:
         r, c = cords[0], cords[1]
         final_graph[r][c] = '*'
+
+    for i, row in enumerate(final_graph):
+        final_graph[i] = ''.join(row)
+
     return final_graph
 # a = 3.0
 # b = 4.9  --> int 형변환 하면 소수부가 자동으로 0 처리가 된다.
