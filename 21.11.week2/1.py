@@ -15,7 +15,11 @@ k = [[3, 2], [4, 2], [4, 3], [4, 1]]
 # print('b', b)
 #
 # print('k', k)
-a = list(range(1, 10))
-b = sum(list(range(2, 10)))
+# a = list(range(1, 10))
+# b = sum(list(range(2, 10)))
+# print(b)
+# print(reduce(lambda x, y: x - y, a))
+b = sorted(k, key= lambda x: x[1]) # 이중 리스트에 영향을 주지 않는다.
 print(b)
-print(reduce(lambda x, y: x - y, a))
+print(sorted(k))
+print(k)

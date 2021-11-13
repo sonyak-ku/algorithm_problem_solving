@@ -1,3 +1,11 @@
+from itertools import combinations
+
+def solution(line):
+    combi = list(combinations(line, 2)) # 선분들을 두개씩 묶어서
+    cords = [check_int_or_float(find_intersection(lines[0], lines[1])) for lines in combi] # 정수 좌표들 바로 출력(None) 포함되어잇음
+    int_cords = [cord for cord in cords if cord is not None]
+    return express_cords_in_graph(int_cords)
+
 def find_intersection(list_a, list_b):# Ax + By + C = 0 이라 할때 [A, B, C] 의 형태의 리스트가 두개 파라미터로 들어간다
     first_a, first_b, first_c = list_a
     second_a, second_b, second_c = list_b  # 좌표를 일단 풀자
@@ -50,13 +58,24 @@ def check_int_or_float(cord): # 3.0 과 3 은 같다고 나오는 성질을 이�
     x = cord[0]
     y = cord[1]
     if x == int(x) and y == int(y):
-        return map(int, [x, y])  # 정수로 형변환 해서 리선
+        return [int(x), int(y)]  # 정수로 형변환 해서 리선
     else:
         return
 
+def express_cords_in_graph(cords : list):
+    tr = sorted(cords, key=lambda x: x[1])[-1][1] - sorted(cords, key=lambda x: x[1])[0][1] + 1  # y좌표의 차이가 그래프의 r 의 길이가 된다.
+    tc = sorted(cords)[-1][0] - sorted(cords)[0][0] + 1
+    maxy, minx = sorted(cords, key=lambda x: x[1])[-1][1], sorted(cords)[0][0]
+    final_graph = [['.' for c in range(tc)] for r in range(tr)]
+    reordered_cords = list(map(lambda x: [abs(x[1] - maxy), x[0] - minx], cords)) # 리스트좌표 재조정
+    for cords in reordered_cords:
+        r, c = cords[0], cords[1]
+        final_graph[r][c] = '*'
+    return final_graph
 # a = 3.0
 # b = 4.9  --> int 형변환 하면 소수부가 자동으로 0 처리가 된다.
 # print(a == int(a)) #True
 # print(b == int(b)) #False
 
-print(check_int_or_float(find_intersection([3, 1, -1], [0, 1, 1])))
+# print(check_int_or_float(find_intersection([3, 1, -1], [0, 1, 1])))
+print(solution([[2, -1, 4], [-2, -1, 4], [0, -1, 1], [5, -8, -12], [5, 8, 12]]))
