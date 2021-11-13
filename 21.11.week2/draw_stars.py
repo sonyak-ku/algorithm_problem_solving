@@ -1,52 +1,28 @@
 from itertools import combinations
 
 def solution(line):
-    combi = list(combinations(line, 2)) # 선분들을 두개씩 묶어서
-    cords = [check_int_or_float(find_intersection(lines[0], lines[1])) for lines in combi if find_intersection(lines[0], lines[1]) is not None] # 정수 좌표들 바로 출력(None) 포함되어잇음
-    ## find_intersection 함수를 돌려 None 이 나왓을 때 check 함수에 넣지 못함.
-    int_cords = [cord for cord in cords if cord is not None]
-    return express_cords_in_graph(int_cords)
+    combi = list(combinations(line, 2))# 선분들을 두개씩 묶어서
+    inter = []
+    for duo in combi:
+        result = find_intersection(duo[0], duo[1])
+        if result: # None 이 아닐때
+            final_result = check_int_or_float(result)
+            if final_result:
+                inter.append(final_result)
+
+
+    return express_cords_in_graph(inter)
 
 def find_intersection(list_a, list_b):# Ax + By + C = 0 이라 할때 [A, B, C] 의 형태의 리스트가 두개 파라미터로 들어간다
-    first_a, first_b, first_c = list_a
-    second_a, second_b, second_c = list_b  # 좌표를 일단 풀자
+    a, b, e = list_a
+    c, d, f = list_b  # 좌표를 일단 풀자
+    if a * d - b * c == 0: # 두 직선은 평행 또는 일치
+        return
+    else:
+        x = (b * f - e * d) / (a * d - b * c)
+        y = (e * c - a * f) / (a * d - b * c)
+        return (x, y)
 
-    if first_a == 0 and second_a == 0:
-        return
-    if first_b == 0 and second_b == 0: # 둘 다 0일 때 -> 수펼
-        return
-    # 수평인 케이스 사라졋고! 상수+상수, 상수+직선, 직선+직선 케이스 남음
-    if first_a != 0 and first_b != 0: # 첫번째 선분이 직선형태일때
-        if second_a != 0 and second_b != 0: # 두번째 선분이 직선형태 일때
-            x = (first_c / first_b - second_c / second_b) / (-first_a / first_b + second_a / second_b)
-            y = (-first_a / first_b) * x - first_c / first_b  # 수학적으로 아에 풀어서 좌표 구하는 식 완성
-            return [x, y]
-        elif second_a == 0: # y = -C/B 의 형태일때
-            y = -second_c/second_b
-            x = (-first_b * y - first_c) / first_a
-            return [x, y]
-        elif second_b == 0: # x = -C/A
-            x = -second_c/second_a
-            y = (-first_a * x - first_c) / first_b
-            return [x, y]
-    elif first_a == 0:
-        if second_b == 0: # 둘이 수직 일 때
-            x = -second_c/second_a
-            y = -first_c/first_b
-            return [x, y]
-        else: # second 가 직선형태
-            y = -first_c / first_b
-            x = (-second_b * y - second_c) / second_a
-            return [x, y]
-    elif first_b == 0:
-        if second_a == 0:
-            x = -first_c / first_a
-            y = -second_c / second_b
-            return [x, y]
-        else:
-            x = -first_c / first_a
-            y = (-second_a * x - second_c) / second_b
-            return [x, y]
 
 
     ## 함수 구현 끝
@@ -74,7 +50,8 @@ def express_cords_in_graph(cords : list):
         final_graph[r][c] = '*'
 
     for i, row in enumerate(final_graph):
-        final_graph[i] = ''.join(row)
+        k = ''.join(row)
+        final_graph[i] = k
 
     return final_graph
 # a = 3.0
