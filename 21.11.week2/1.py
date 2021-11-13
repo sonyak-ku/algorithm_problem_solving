@@ -10,8 +10,12 @@ k = [[3, 2], [4, 2], [4, 3], [4, 1]]
 # p = list(map(lambda x: [x[0]+1, x[1]+1], k))
 # print(p)
 # print(list(map(lambda x: min(x), k)))
-b = sorted(k)
-b[0].append(19)
-print('b', b)
-
-print('k', k)
+# b = sorted(k)
+# b[0].append(19)
+# print('b', b)
+#
+# print('k', k)
+a = list(range(1, 10))
+b = sum(list(range(2, 10)))
+print(b)
+print(reduce(lambda x, y: x - y, a))
