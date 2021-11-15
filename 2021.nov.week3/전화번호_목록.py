@@ -3,7 +3,6 @@ def solution(phone_book):  # N = 100 만 -> 접두어!! O(N) 으로만 풀어야
     phone_book.sort()
     # 이 해싱의 단점은 119 랑 191 이랑 저장하는 해싱값을 똑같이 본다는 점 -> enumerate 로 숫자 곱해서 저장 -> 답이 소수가 틀린거보니 이거도 겹치는 부분이 잇나봐(12 == 21 같게봄)
     for book in phone_book:
-        l = len(book) - 1
         item = ''
         for i, num in enumerate(book):
             item += num
