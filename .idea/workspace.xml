@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05708b4-c7f1-4452-bf15-25f73b73e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021.nov.week3/best_album.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021.nov.week3/prac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021.nov.week3/이진변환반복.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021.nov.week3/전화번호_목록.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.nov.week3/전화번호_목록.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +33,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.best_album">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.이진변환반복">
+    <configuration name="이진변환반복" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,11 +42,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21.11.week2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21.11.week2/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week3/이진변환반복.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.이진변환반복" />
         <item itemvalue="Python.best_album" />
         <item itemvalue="Python.prac" />
         <item itemvalue="Python.전화번호목록_best" />
         <item itemvalue="Python.전화번호_목록" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
