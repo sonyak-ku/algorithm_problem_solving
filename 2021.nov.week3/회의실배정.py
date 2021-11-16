@@ -1,12 +1,13 @@
 n = int(input()) # N = 10만 , 2초 : 4천만
 reserve_times = []
+reserve_time_dict = {}
 # 방문시간을 적어서 게임을 해야 될 것 같아.(데이터도 딱 초반 부분만 사용하면 되서.
 for i in range(n):
     a, b = map(int, input().split())
     reserve_times.append((a, b))
 
 
-reserve_times = sorted(reserve_times, key=lambda x:x[1]) # 끝나는 시간이 빠른 순서대로 정렬
+reserve_times = sorted(reserve_times, key=lambda x: x[1]) # 끝나는 시간이 빠른 순서대로 정렬
 visited = {}
 counts = []
 max_i = len(reserve_times) - 1
