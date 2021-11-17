@@ -8,7 +8,19 @@
 # for i in a:
 #     print(a.pop())
 
-if 1:
-    print('first')
-else:
-    print('second')
+# if 1:
+#     print('first')
+# else:
+#     print('second')
+# a = [ [ [] for j in range(5)] for i in range(5) ]
+# for i in range(4):
+#     for r in a:
+#         for c in r:
+#             if i in a[r][c]:
+#                 continue
+#             else:
+#                 a[r][c].append(i)
+
+
+
+# print(a)
