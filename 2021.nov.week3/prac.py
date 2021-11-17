@@ -7,3 +7,8 @@
 #
 # for i in a:
 #     print(a.pop())
+
+if 1:
+    print('first')
+else:
+    print('second')
