@@ -5,7 +5,7 @@ def solution(grid):  # 500 * 500 총 25000 개 그리드에 , 4방향탐색이�
     save = [[{} for __ in _] for _ in grid]  # 방향을 저장할 공간 -> 이거 움직인 방향 그냥 저장해도 됨:: 그래야 완전탐색이 가능해짐.
     board = [[g for g in _] for _ in grid]
     # 빛의 움직임을 구현 해봅시다.
-    i = 0  # 처음은 북쪽방향 빛부터
+
     max_r, max_c = len(grid) - 1, len(grid[0]) - 1
     for i in range(4):
         for ir, r in enumerate(save):
@@ -54,10 +54,11 @@ def solution(grid):  # 500 * 500 총 25000 개 그리드에 , 4방향탐색이�
 
                 answer.append(count)
 
-    answer.sort(reverse=True)
+    # answer.sort(reverse=True) #--> 요건 내림차순을 이야기 하는 코드
+    answer.sort()
     return answer
 
 
-grid =["SL","LR"]
+grid =["RR","RR"]
 
 print(solution(grid))
