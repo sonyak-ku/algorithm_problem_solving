@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05708b4-c7f1-4452-bf15-25f73b73e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021.nov.week4/떡볶이떡만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021.nov.week4/이분탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021.nov.week4/이분탐색_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.nov.week4/prac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/이분탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.nov.week4/이분탐색.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
       <recent name="$PROJECT_DIR$/2021.nov.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.prac (1)">
     <configuration name="이중우선순위" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
