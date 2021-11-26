@@ -38,5 +38,5 @@ def solution(n, times):
 
 
 print(solution(6, [4, 10]), '\nanswer: 20')
-# print(solution(	1, [2, 2]), '\nanswer: 2')
-# print(solution(	5, [1, 1, 10]), '\nanswer: 3')
+print(solution(	1, [2, 2]), '\nanswer: 2')
+print(solution(	5, [1, 1, 10]), '\nanswer: 3')
