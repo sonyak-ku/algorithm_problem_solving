@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05708b4-c7f1-4452-bf15-25f73b73e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021.nov.week5/짝지어제거하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021.nov.week5/짝지어제거하기_stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021.nov.week5/예상대진표.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
