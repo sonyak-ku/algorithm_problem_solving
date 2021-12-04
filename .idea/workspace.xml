@@ -36,7 +36,7 @@
       <recent name="$PROJECT_DIR$/2021.nov.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.리스트쪼개기">
+  <component name="RunManager" selected="Python.main">
     <configuration name="배달" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +249,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.리스트쪼개기" />
         <item itemvalue="Python.배달" />
         <item itemvalue="Python.s" />
         <item itemvalue="Python.h_index" />

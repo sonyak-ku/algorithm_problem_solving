@@ -36,7 +36,7 @@ def solution(grid):
                             c = c_wall - 1
 
                         if graph[r][c] == 'R':  # 방향 바꾸어 주기
-                            direc = (direc + 1) // 4
+                            direc = (direc + 1) // 4   ########## 여기서 방향 갱신할 때 나머지 를 써야되는데 몫을 쓰는 코드 사용해서 틀림
                         elif graph[r][c] == 'L':
                             if direc == 0:
                                 direc = 3
