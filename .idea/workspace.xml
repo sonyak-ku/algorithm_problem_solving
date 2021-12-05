@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05708b4-c7f1-4452-bf15-25f73b73e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021.nov.week5/게임맵최단거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021.dec.week1/영어끝말잇기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       <recent name="$PROJECT_DIR$/2021.nov.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.게임맵최단거리">
+  <component name="RunManager" selected="Python.main">
     <configuration name="배달" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,7 +273,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.게임맵최단거리" />
         <item itemvalue="Python.배달" />
         <item itemvalue="Python.s" />
         <item itemvalue="Python.h_index" />
