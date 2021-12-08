@@ -1,4 +1,4 @@
-import re # 확실히 카카오 인턴문제는 뭔가 어렵긴하네
+import re # 확실히 카카오 인턴문제는 뭔가 어렵긴하네    --> 아직 못풀었음
 from itertools import permutations
 
 
