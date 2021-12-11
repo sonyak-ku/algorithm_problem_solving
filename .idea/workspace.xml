@@ -5,8 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05708b4-c7f1-4452-bf15-25f73b73e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021.nov.week5/백트래킹연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/December/week2/N-Queen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/2개이하의다른비트.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/2개이하의다른비트.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/가장먼노드.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week2/가장먼노드.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/괄호회전하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/괄호회전하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/멀쩡한사각형.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/멀쩡한사각형.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/방문길이.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/방문길이.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/수식최대화.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/수식최대화.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/영어끝말잇기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/영어끝말잇기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/점프와순간이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/점프와순간이동.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/튜플.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/튜플.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.dec.week1/튜플_counter_and_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week1/튜플_counter_and_re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/best_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/best_album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/fibonacci_O_n_efficiency.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/fibonacci_O_n_efficiency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/knapsack_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/knapsack_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/n^2배열자르지.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/n^2배열자르지.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/prac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/빛의경로사이클.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/빛의경로사이클.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/삼각달팽이.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/삼각달팽이.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/이진변환반복.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/이진변환반복.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/전화번호_목록.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/전화번호_목록.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/전화번호목록_best.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/전화번호목록_best.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/쿼드트리압축개수세기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/쿼드트리압축개수세기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/회의실배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/회의실배정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week3/회의실배정_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week3/회의실배정_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/h_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/h_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/heap_disk_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/heap_disk_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/heap_mort_hot.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/heap_mort_hot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/prac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/prac1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/prac1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/prac_deque_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/prac_deque_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/떡볶이떡만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/떡볶이떡만들기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/이분탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/이분탐색.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/이분탐색_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/이분탐색_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/이분탐색_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/이분탐색_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/이중우선순위.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/이중우선순위.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/징검다리.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/징검다리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/징검다리01.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/징검다리01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week4/징검다리02.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week4/징검다리02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/daijkstra_heapq.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week2/daijkstra_heapq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/n2배열자르기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/n2배열자르기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/s.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/target_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/target_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/target_number_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/target_number_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/게임맵최단거리.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/게임맵최단거리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/기능개발.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/기능개발.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/리스트쪼개기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/리스트쪼개기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/배달.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week2/배달.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/백트래킹연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week2/백트래킹연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/빛의경로사이클재풀이.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/빛의경로사이클재풀이.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/서로소집합자료구조연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/서로소집합자료구조연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/예상대진표.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/예상대진표.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/짝지어제거하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/짝지어제거하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/짝지어제거하기_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/짝지어제거하기_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/쿼드압축개수세기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/쿼드압축개수세기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/크루스칼알고리즘연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/December/week2/크루스칼알고리즘연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/프린터.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/프린터.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/행렬테두리회전.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/행렬테두리회전.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.nov.week5/행렬테두리회전_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week5/행렬테두리회전_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/deliver_sugar.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/deliver_sugar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/draw_stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/draw_stars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/dungeon_explore.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/dungeon_explore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/fill_in_the_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/fill_in_the_puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/picking_item_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/picking_item_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/prac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.11.week2/tree_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/November/week2/tree_question.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +106,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2021.nov.week3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2021/December/week2" />
+      <recent name="$PROJECT_DIR$/2021/November" />
+      <recent name="$PROJECT_DIR$/2021/November/week3" />
+      <recent name="$PROJECT_DIR$/2021/December" />
+      <recent name="$PROJECT_DIR$/2021.dec.week1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.백트래킹연습">
+  <component name="RunManager" selected="Python.main">
     <configuration name="배달" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,7 +127,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week5/배달.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.dec.week1/배달.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="리스트쪼개기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_problem_solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week5/리스트쪼개기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="기능개발" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_problem_solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week5/기능개발.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="떡볶이떡만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_problem_solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week4/떡볶이떡만들기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,69 +367,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="리스트쪼개기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_problem_solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week5/리스트쪼개기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="기능개발" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_problem_solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week5/기능개발.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="떡볶이떡만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_problem_solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.nov.week4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.nov.week4/떡볶이떡만들기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="행렬테두리회전_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,7 +432,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.백트래킹연습" />
         <item itemvalue="Python.행렬테두리회전_01" />
         <item itemvalue="Python.배달" />
         <item itemvalue="Python.s" />
@@ -396,7 +470,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2021.nov.week3/prac.py</url>
+          <url>file://$PROJECT_DIR$/2021/November/week3/prac.py</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
