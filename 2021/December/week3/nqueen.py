@@ -2,6 +2,7 @@
 # 구체화 -> 퀸을 배치하고, 같은 열 행 대각 에 퀸이 올수 없다는 표시를 한다. 그 다음 퀸은, 배치 가능한데에 놓고, 대각 열 행에 표시한다. 반복
 # n 번 반복을 못할때는 빠꾸하고.
 def solution(n):
+    global count
     def find_unable_position(r, c, graph):  # 좌표만 찾아주기
         l = []
         move = [(1, 0), (1, -1), (1, 1)]  # 아래 세방향 탐색
@@ -44,3 +45,4 @@ def solution(n):
 
     return count
 
+print(solution(4))
