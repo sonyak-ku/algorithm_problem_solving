@@ -2,7 +2,6 @@ import sys
 import heapq
 
 def count_minimum_rupee(n, list): # 한변의 길이와 리스트형태의 젤다맵을 받는다
-    # 다익스트라를 사용하기 쉽게 리스트를 인접리스트의 형태로 데이터 가공
     visited = [[False] * n for _ in range(n)]
     move = [(1, 0), (0, 1), (-1, 0), (0, -1)]
     cur = [(list[0][0], 0, 0)]
