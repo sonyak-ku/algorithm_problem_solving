@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05708b4-c7f1-4452-bf15-25f73b73e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2022/January/week4/나는개구리로소이다.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/January/week4/녹색옷입은애가젤다지.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +46,8 @@
       <recent name="$PROJECT_DIR$/2021/December" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.나는개구리로소이다">
-    <configuration name="백트래킹연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.녹색옷입은애가젤다지">
+    <configuration name="녹색옷입은애가젤다지" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm_problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021/December/week2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/January/week4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/December/week2/백트래킹연습.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/January/week4/녹색옷입은애가젤다지.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -511,11 +511,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.녹색옷입은애가젤다지" />
         <item itemvalue="Python.나는개구리로소이다" />
         <item itemvalue="Python.신규아이디추천" />
         <item itemvalue="Python.nqueen" />
         <item itemvalue="Python.N-Queen" />
-        <item itemvalue="Python.백트래킹연습" />
       </list>
     </recent_temporary>
   </component>
